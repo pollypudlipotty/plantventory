@@ -1,0 +1,392 @@
+html {
+    height: 100%;
+}
+
+
+
+body {
+    background-image: url('images/bg.jpg');
+    background-size: auto;  
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar {
+    opacity: 0.75;
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+.img-thumbnail {
+    height: 150px;
+    width: 200px;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-size: 30px;
+}
+
+#home-p {
+    height: 100%;
+}
+
+#home-txt {
+    padding-right: 50px;
+    font-family: sans-serif;
+}
+
+.h-txt {
+    letter-spacing: 2px;
+}
+
+#img-text {
+    color: rgb(55, 190, 121);
+    text-decoration: overline;
+    padding-left: 20px;
+    opacity: 0;
+    text-align: center;
+}
+
+#welcome-text {
+    color: rgb(55, 190, 121);
+    opacity: 0;
+}
+
+#img-change {
+    border: solid 3px black;
+    opacity: 0;
+    width: 500px;
+    height: auto;
+}
+
+.btn {
+    background-color: rgb(55, 190, 121);
+    width: 150px;
+    border: 2px solid black;
+}
+
+#reg-img {
+    border: solid 3px black;
+    width: auto;
+    height: 100%;
+    opacity: 0;
+}
+
+footer {   
+    opacity: 0.75;
+    font-size: small;
+    text-align: center;
+    padding: 10px;    
+}
+
+#login-link {
+    text-decoration: overline;
+    color: rgb(55, 190, 121);
+}
+
+
+#welc-txt {
+    height: 150px;
+}
+
+#welc-img {
+    border: solid black 3px;
+}
+
+.green {
+    color: rgb(55, 190, 121);
+    font-weight: 800;
+}
+
+.new {
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(55, 190, 121);
+    border-radius: 2%;
+    width: 50%;
+    margin: 20px;
+    background-image: url('images/newbg3.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+
+@media only screen and (max-width: 1200px) {
+    .new {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.new .form-control {
+    background-color: rgb(150, 147, 147);
+}
+
+.new label {
+    text-align: center;
+}
+
+.new small {
+    background-color: white;
+    opacity: 0.8;
+}
+
+ul.ui-autocomplete {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: rgb(195, 192, 192);
+    width:fit-content;
+    list-style-type:none;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.card-main {
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(55, 190, 121);
+    border-radius: 2%;
+    padding: 0px !important;
+}
+
+.card-img-top {
+    width: 75%;
+    height: auto;
+}
+
+.cardimg {
+    border-bottom: 3px solid rgb(96, 93, 93);
+}
+
+.cardimg button {
+    border-radius: 50%;
+}
+
+.cardimg span {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.pictodiv {
+    height: 30px;
+}
+
+.card-picto {
+   height: 100%;
+   width: auto;
+}
+
+.card-picto2 {
+    height: 150%;
+    width: auto;
+}
+
+.card-txt {
+    border-bottom: 3px solid rgb(96, 93, 93);
+    font-weight: 800;
+    font-size: 120%;
+}
+
+.card small {
+    opacity: 0.8;
+}
+
+.card-note {
+    display: none;
+}
+
+.card-body button
+{
+    width: 80px;
+}
+
+.card-title {
+    font-weight: 500;
+}
+
+#e-species {
+    opacity: 0.7;
+}
+
+.delbtn {
+    background-color: rgb(170, 36, 36);
+    width: 150px;
+    border: 2px solid black;
+}
+
+#edit button {
+    width: 120px;
+}
+
+#add_new  button {
+    width: 120px;
+}
+
+#add_img  button {
+    width: 120px;
+}
+
+.custom-btn {
+    background-color: rgb(55, 190, 121);
+    border: 2px solid black;
+    padding: 10px 15px;    
+    border-radius: 5px;
+}
+
+#f_name {
+    background-color: rgb(195, 192, 192);
+}
+
+.err_msg {
+    color: red;
+}
+
+.square-card {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: white;
+    overflow: hidden;
+    border-width: 5px;
+    border-color: rgb(55, 190, 121);
+    border-radius: 2%;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100vh;
+   
+  }
+
+
+
+.gallery-con {
+    width: 100%;
+}
+
+#caption-txt {
+    font-size: 20px;
+}
+
+#gallery-btn {
+    width: 100px;
+}
+
+#day_show {
+    opacity: 0.75;
+    color: rgb(195, 192, 192);
+}
+
+#piceditformdiv {
+    width: 100%;
+    max-width: 800px;
+}
+
+#editpic{
+    width: 100%;
+    max-width: 800px;
+}
+
+#addformdiv {
+    width: 100%;
+    max-width: 900px;
+}
+
+#addpicform {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+#editplantform {
+    width: 100%;
+    max-width: 600px;
+}
+
+#plantcarddiv {
+    width: 100%;
+}
+
+#maincheck {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.gallery-btn {
+    width: 120px;
+}
+
+#plant_main {
+    max-height: 200px;
+    min-height: 100px;
+    width: auto;
+    max-width: 100%;
+    
+}
+
+#plant_main_div {
+    width: 300px;
+    height: 200px;
+}
+
+#main_show {
+    color: rgb(55, 190, 121);
+}
+
+#myModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+    padding-top: 60px;
+}
+
+#myModal img {
+    margin: auto;
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    border: solid 5px rgb(55, 190, 121);
+}
+
+@media (max-width: 768px) {
+    #myModal img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.modal-content {
+    background-color: rgb(96, 93, 93, 0.1);;
+}
+
